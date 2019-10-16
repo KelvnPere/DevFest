@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.devfestivalapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_event_program"
+        android:name="com.example.devfestivalapp.ui.event.EventProgramFragment"
+        android:label="@string/menu_event_program"
+        tools:layout="@layout/fragment_eventProgram" />
+
+    <fragment
+        android:id="@+id/nav_find_location"
+        android:name="com.example.devfestivalapp.ui.location.LocationFragment"
+        android:label="@string/menu_find_location"
+        tools:layout="@layout/fragment_location" />
+
+    <fragment
+        android:id="@+id/nav_speakers"
+        android:name="com.example.devfestivalapp.ui.speakers.SpeakersFragment"
+        android:label="@string/menu_speakers"
+        tools:layout="@layout/fragment_speakers" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.devfestivalapp.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.devfestivalapp.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.example.devfestivalapp.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashscreen_to_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+</navigation>

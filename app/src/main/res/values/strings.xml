@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DevFest PH</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_event_program">Event Program</string>
+    <string name="menu_find_location">Find Location</string>
+    <string name="menu_speakers">Speakers</string>
+    <string name="menu_settings">Settings</string>
+    <string name="home_text">When you join a GDG, you’ll have the opportunity to meet local developers with similar interests in technology, attend talks on a wide range of technical topics, and learn new skills through hands-on workshops. GDG prides itself on being an inclusive environment. Everyone and anyone interested in tech - from beginner developers to experienced professionals - are welcome to join.</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="theme_header">Theme Setting</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="dark_title">Dark Mode</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
